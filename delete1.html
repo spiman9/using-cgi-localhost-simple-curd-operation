@@ -1,0 +1,68 @@
+<html>
+
+<body>
+	<h1 class="head">YOU ARE NOW IN DELETE PAGE</h1>
+	<div class="container">
+		<form name="f" method='post' action='delete.py'>
+			<label for="fn"> FIRST NAME THAT YOU WANT TO DELETE: </label><input type="text" name="fn" required autofocus
+				autocomplete="" /><br /><br>
+			<input type="submit" value="Delete Record">
+			<input type="reset" value="Reset Record">
+		</form>
+	</div>
+</body>
+<style>
+	body {
+		background: url("https://img.freepik.com/free-vector/office-background-video-conferencing_23-2148641674.jpg?w=2000");
+	}
+
+	.container {
+		display: block;
+		border: 4px double black;
+		padding: 100px 200px;
+		margin-left: 20px;
+		font-size: 30px;
+	}
+
+
+
+	input[type="text"] {
+		font-size: 24px;
+	}
+
+	input[type="submit"] {
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		padding: 20px 20px;
+	}
+
+	input[type="reset"] {
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		padding: 20px 20px;
+	}
+
+
+	input[type="submit"]:hover {
+		background-color: aquamarine;
+		color: black;
+		border: 2px solid black;
+		transition: all 1s;
+	}
+
+	input[type="reset"]:hover {
+		background-color: aquamarine;
+		color: black;
+		border: 2px solid black;
+		transition: all 1s;
+	}
+
+
+	.head {
+		text-align: center;
+	}
+</style>
+
+</html>

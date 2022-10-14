@@ -1,0 +1,95 @@
+<html>
+
+<body>
+	<h1 class="head">INSERT PAGE</h1>
+	<div class="container">
+		<form name="f" method='post' action='insert.py'>
+			<label for="fn"> FIRST NAME: </label><input type="text" name="fn" required autofocus
+				autocomplete="" /><br /><br>
+			<label for="fn"> LAST NAME: </label><input type="text" name="ln" required font /><br /><br>
+			<input type="submit" value="Save Record">
+			<input type="reset" value="Reset Record">
+		</form>
+		<hr>
+		<br>
+		<h4>LIST OF OPERATIONS THAT YOU WANT TO PERFORM</h4>
+		<div class="center_re">
+			<a href="view.py">View all data</a>
+			<a href="update1.html">Update data</a>
+			<a href="delete1.html">Delete data</a>
+		</div>
+	</div>
+</body>
+<style>
+	body {
+		background: url("https://img.freepik.com/free-vector/office-background-video-conferencing_23-2148641674.jpg?w=2000");
+	}
+
+	.container {
+		display: block;
+		border: 4px double black;
+		padding: 100px 200px;
+		margin-left: 20px;
+		font-size: 30px;
+	}
+
+	a {
+		border: 2px solid white;
+		text-decoration: none;
+		color: white;
+		background-color: black;
+		padding: 20px 20px;
+		margin-left: 30px;
+	}
+
+	a:hover {
+		border: 2px solid black;
+		text-decoration: none;
+		color: black;
+		background-color: aquamarine;
+		transition: all 1s;
+	}
+
+	.center_re {
+	}
+
+	input[type="text"] {
+		font-size: 24px;
+	}
+
+	input[type="submit"] {
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		padding: 20px 20px;
+	}
+
+	input[type="reset"] {
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		padding: 20px 20px;
+	}
+
+
+	input[type="submit"]:hover {
+		background-color: aquamarine;
+		color: black;
+		border: 2px solid black;
+		transition: all 1s;
+	}
+
+	input[type="reset"]:hover {
+		background-color: aquamarine;
+		color: black;
+		border: 2px solid black;
+		transition: all 1s;
+	}
+
+
+	.head {
+		text-align: center;
+	}
+</style>
+
+</html>
